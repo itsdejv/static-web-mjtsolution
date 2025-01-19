@@ -1,1 +1,7 @@
-{}
+{
+  "menu.contact":  "Contact",
+  "menu.services":  "Services",
+  "menu.services.hvac":  "HVAC",
+  "menu.services.solarPanels":  "Solar panels",
+  "menu.services.constructionWork":  "Construction work"
+}
