@@ -8,26 +8,26 @@ export type SidebarMenuItem = {
 
 export const navbarMenuItems: SidebarMenuItem[] = [
   {
-    name: t("menu.contact"),
+    name: t("contact"),
     href: "/contact",
     subItems: [],
   },
   {
-    name: t("menu.services"),
+    name: t("services"),
     href: "#",
     subItems: [
       {
-        name: t("menu.services.hvac"),
-        href: "/hvac",
+        name: t("services.airConditioning"),
+        href: "/air-conditioning",
         subItems: [],
       },
       {
-        name: t("menu.services.solarPanels"),
+        name: t("services.solarPanels"),
         href: "/solar-panels",
         subItems: [],
       },
       {
-        name: t("menu.services.constructionWork"),
+        name: t("services.constructionWork"),
         href: "/construction-work",
         subItems: [],
       },

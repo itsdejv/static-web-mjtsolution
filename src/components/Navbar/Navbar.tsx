@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet.tsx";
-import { Button } from "@/components/ui/button.tsx";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
-import { navbarMenuItems } from "@/utils/helpers/navbar.tsx";
-import NavbarDropdownItem from "@/components/Navbar/NavbarDropdownItem.tsx";
+import { navbarMenuItems } from "@/utils/helpers/navbar";
+import NavbarDropdownItem from "@/components/Navbar/NavbarDropdownItem";
 
 const Navbar = () => {
   return (

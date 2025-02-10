@@ -1,15 +1,28 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ],
+  "name": "frontend-library",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
-    "baseUrl": ".",
+    "composite": true,
+    "rootDir": "src",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
+    "incremental": true,
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
     "paths": {
       "@/*": ["./src/*"]
     }

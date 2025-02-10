@@ -3,12 +3,12 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu.tsx";
+} from "@/components/ui/dropdown-menu";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
-import { SidebarMenuItem } from "@/utils/helpers/navbar.tsx";
+import { SidebarMenuItem } from "@/utils/helpers/navbar";
 import { useState } from "react";
-import { cn } from "@/lib/utils.ts";
+import { cn } from "@/lib/utils";
 
 interface NavbarDropdownItemProps {
   item: SidebarMenuItem;
