@@ -5,6 +5,10 @@ import { useTranslation } from "react-i18next";
 const AirConditioning = () => {
   const { t } = useTranslation();
 
+  const airConditioningItems = t("services.airConditioning.list", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <DefaultLayout
       headerImage={homePhoto}
@@ -12,16 +16,11 @@ const AirConditioning = () => {
       description={t("services.airConditioning.description")}
     >
       <div className="">
-        <p className="font-semibold">We offer these services</p>
+        <p className="font-semibold">{t("services.offeringText")}</p>
         <ul className="list-disc">
-          <li>Service #1</li>
-          <li>Service #1</li>
-          <li>Service #1</li>
-          <li>Service #1</li>
-          <li>Service #1</li>
-          <li>Service #1</li>
-          <li>Service #1</li>
-          <li>Service #1</li>
+          {airConditioningItems.map((item, index) => (
+            <li key={`air-conditioning-${index}`}>{item}</li>
+          ))}
         </ul>
       </div>
     </DefaultLayout>

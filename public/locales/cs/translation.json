@@ -1,25 +1,44 @@
 {
   "contact":  "Kontakt",
   "services":  "Služby",
+  "services.offeringText": "Nabízené služby",
   "services.airConditioning":  "Vzduchotechnika",
   "services.airConditioning.description":  "Specializuji se na montáže vzduchotechnických systémů, konstrukcí a souvisejících technologií. Nabízím profesionální přístup, kvalitní zpracování a spolehlivé řešení pro všechny typy projektů – od menších zakázek až po komplexní systémy pro průmyslové a komerční prostory.",
+  "services.airConditioning.list": [
+    "Montáže vzduchotechniky",
+    "Montáž konstrukcí",
+    "Montáže potrubí, izolace a dalších součástí systémů",
+    "Údržba a opravy stávajících zařízení"
+  ],
   "services.solarPanels":  "Solární panely",
   "services.solarPanels.description":  "Vedle vzduchotechniky se specializuji také na montáž solárních panelů a fotovoltaických systémů. Mým cílem je zajistit efektivní a dlouhodobé řešení, které vám pomůže šetřit energie a využít potenciál obnovitelných zdrojů.",
+  "services.solarPanels.list": [
+    "Montáž solárních panelů",
+    "Fotovoltaické systémy na klíč",
+    "Pravidelné kontroly a čištění panelů pro zachování jejich výkonu",
+    "Rychlé řešení případných závad nebo poruch"
+  ],
   "services.constructionWork":  "Stavební práce",
   "services.constructionWork.description":  "Kromě vzduchotechniky a montáže solárních panelů se věnuji také stavebním pracím. Nabízím široké spektrum služeb v oblasti stavebnictví, ať už se jedná o drobné úpravy, rekonstrukce, nebo kompletní realizaci stavebních projektů.",
-  "home.title":  "Welcome to our website",
-  "home.subtitle":  "We are a company that offers a wide range of services",
-  "home.services.airConditioning.text": "We offer air conditioning services",
-  "home.services.solarPanels.text": "We offer solar panel installation services",
-  "home.services.constructionWork.text": "We offer construction work services",
-  "button.readMore": "Read more",
-  "contact.title": "Contact",
-  "contact.subtitle": "Do you have any questions or need more information? Contact us!",
-  "contact.contact.name": "Contact us",
-  "contact.contact.description": "Do you have any questions or need more information? <span>Contact us!</span>",
-  "contact.billingData.name": "Billing data",
-  "contact.billingData.description": "Our billing data",
+  "services.constructionWork.list": [
+    "Rekonstrukce a renovace",
+    "Stavební konstrukce",
+    "Realizace projektů na míru dle vašich potřeb a představ",
+    "Spolupráce s dalšími odborníky pro zajištění komplexních řešení"
+  ],
+  "home.title":  "Vítejte na našem webu",
+  "home.subtitle":  "Specializujeme se na vzduchotechniku, montáž solárních panelů a stavební práce",
+  "home.services.airConditioning.text": "Specializuji se na montáže vzduchotechnických systémů, konstrukcí a souvisejících technologií. Nabízím profesionální přístup, kvalitní zpracování a spolehlivé řešení pro všechny typy projektů – od menších zakázek až po komplexní systémy pro průmyslové a komerční prostory.",
+  "home.services.solarPanels.text": "Vedle vzduchotechniky se specializuji také na montáž solárních panelů a fotovoltaických systémů. Mým cílem je zajistit efektivní a dlouhodobé řešení, které vám pomůže šetřit energie a využít potenciál obnovitelných zdrojů",
+  "home.services.constructionWork.text": "Kromě vzduchotechniky a montáže solárních panelů se věnuji také stavebním pracím. Nabízím široké spektrum služeb v oblasti stavebnictví, ať už se jedná o drobné úpravy, rekonstrukce, nebo kompletní realizaci stavebních projektů.",
+  "button.readMore": "Přečíst více",
+  "contact.title": "Kontakt",
+  "contact.subtitle": "Máte dotazy nebo potřebujete více informací? Kontaktujte nás!",
+  "contact.contact.name": "Kontaktujte nás",
+  "contact.contact.description": "Máte dotazy nebo potřebujete více informací? <span>Kontaktujte nás!</span>",
+  "contact.billingData.name": "Fakturační údaje",
+  "contact.billingData.description": "",
   "contact.billingData.address": "Anglická 336/21, Vinohrady, 120&nbsp;00 Prague 2, Prague,&nbsp;Czech&nbsp;Republic",
-  "contact.companyInfo.name": "Company details",
-  "contact.companyInfo.description": "Our company details"
+  "contact.companyInfo.name": "Informace o společnosti",
+  "contact.companyInfo.description": ""
 }
