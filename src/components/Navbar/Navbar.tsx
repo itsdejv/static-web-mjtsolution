@@ -1,11 +1,14 @@
+import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
+import { useNavbarMenuItems } from "@/hooks/useNavbarItems";
 import { Link } from "react-router-dom";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
-import { navbarMenuItems } from "@/utils/helpers/navbar";
 import NavbarDropdownItem from "@/components/Navbar/NavbarDropdownItem";
 
 const Navbar = () => {
+  const navbarMenuItems = useNavbarMenuItems();
+
   return (
     <header className="flex h-20 w-full shrink-0 items-center px-4 md:px-6">
       <Sheet>
@@ -42,6 +45,8 @@ const Navbar = () => {
                 </Link>
               ),
             )}
+
+            <LanguageSwitcher />
           </div>
         </SheetContent>
       </Sheet>
@@ -65,6 +70,8 @@ const Navbar = () => {
             </Link>
           ),
         )}
+
+        <LanguageSwitcher />
       </nav>
     </header>
   );

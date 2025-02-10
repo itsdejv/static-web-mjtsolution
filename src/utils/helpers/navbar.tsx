@@ -6,7 +6,7 @@ export type SidebarMenuItem = {
   subItems: SidebarMenuItem[];
 };
 
-export const navbarMenuItems: SidebarMenuItem[] = [
+export const generateNavbarMenuItems = () => [
   {
     name: t("contact"),
     href: "/contact",
